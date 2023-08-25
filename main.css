@@ -1,0 +1,57 @@
+body{
+background: #EA82EB;
+background: radial-gradient(at right center, #000000, #ff02af);
+background-repeat: no-repeat;
+height: 940px;
+
+}
+
+.container{
+    max-width:600px;
+    margin: 0 auto;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.text{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'pacifico' cursive;
+    text-shadow: -10px 10px 4px #000;
+    animation: color 5s infinite;
+}
+@keyframes color {
+    0% { color: orange}
+    10% {color: purple}
+    20% {color: red}
+    30% {color: cadetblue}
+    40% {color: yellow}
+    50% {color: coral}
+    60% {color: green}
+    70% {color: cyan}
+    /* 80% {color: deeppink} */
+    90% {color: dodgerblue}
+    95%{color:black}
+    100% {color: orange}
+}
+.input-group{
+    padding: 10px 20px;
+    width: 500px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    background-color: bisque;
+    outline: none;
+}
+button{
+    border: 0;
+    outline: none;
+    background-color: transparent;
+}
